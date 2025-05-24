@@ -1,0 +1,16 @@
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/config/ur5_controllers.yaml
+/home/kartik/robot_arm/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+/home/kartik/robot_arm/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/environment/path.sh
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/environment/path.dsv
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/local_setup.bash
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/local_setup.sh
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/local_setup.zsh
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/local_setup.dsv
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/package.dsv
+/home/kartik/robot_arm/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/package.xml
