@@ -1,4 +1,5 @@
 /home/kartik/robot_arm/install/robot_controller/share/robot_controller/config/ur5_controllers.yaml
+/home/kartik/robot_arm/install/robot_controller/share/robot_controller/launch/controller.launch.py
 /home/kartik/robot_arm/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
 /home/kartik/robot_arm/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
 /home/kartik/robot_arm/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh

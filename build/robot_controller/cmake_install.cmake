@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE DIRECTORY FILES "/home/kartik/robot_arm/src/robot_controller/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE DIRECTORY FILES
+    "/home/kartik/robot_arm/src/robot_controller/config"
+    "/home/kartik/robot_arm/src/robot_controller/launch"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
