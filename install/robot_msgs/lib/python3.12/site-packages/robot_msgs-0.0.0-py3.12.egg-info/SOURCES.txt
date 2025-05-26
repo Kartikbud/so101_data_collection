@@ -1,0 +1,11 @@
+setup.py
+robot_msgs/__init__.py
+robot_msgs.egg-info/PKG-INFO
+robot_msgs.egg-info/SOURCES.txt
+robot_msgs.egg-info/dependency_links.txt
+robot_msgs.egg-info/top_level.txt
+robot_msgs/msg/__init__.py
+robot_msgs/msg/_my_message.py
+robot_msgs/srv/__init__.py
+robot_msgs/srv/_euler_to_quaternion.py
+robot_msgs/srv/_quaternion_to_euler.py

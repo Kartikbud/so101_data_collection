@@ -1,0 +1,12 @@
+{
+  "package_name": "robot_msgs",
+  "output_dir": "/home/kartik/robot_arm/build/robot_msgs/rosidl_generator_type_description/robot_msgs",
+  "idl_tuples": [
+    "/home/kartik/robot_arm/build/robot_msgs/rosidl_adapter/robot_msgs:srv/EulerToQuaternion.idl",
+    "/home/kartik/robot_arm/build/robot_msgs/rosidl_adapter/robot_msgs:srv/QuaternionToEuler.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

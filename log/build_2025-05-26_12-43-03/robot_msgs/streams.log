@@ -1,0 +1,292 @@
+[0.010s] Invoking command in '/home/kartik/robot_arm/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/build/robot_msgs -- -j5 -l5
+[0.035s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.054s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.098s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.112s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.116s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.139s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.142s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.265s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.361s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.485s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.490s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.496s] -- Added test 'lint_cmake' to check CMake code style
+[0.496s] -- Added test 'xmllint' to check XML markup files
+[0.497s] -- Configuring done (0.5s)
+[0.521s] -- Generating done (0.0s)
+[0.530s] -- Build files have been written to: /home/kartik/robot_arm/build/robot_msgs
+[0.553s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.557s] [  2%] Built target ament_cmake_python_copy_robot_msgs
+[0.644s] running egg_info
+[0.652s] writing robot_msgs.egg-info/PKG-INFO
+[0.652s] writing dependency_links to robot_msgs.egg-info/dependency_links.txt
+[0.652s] writing top-level names to robot_msgs.egg-info/top_level.txt
+[0.659s] [  2%] Built target robot_msgs__rosidl_generator_type_description
+[0.663s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.667s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.675s] reading manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[0.675s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[0.690s] [  6%] Built target ament_cmake_python_build_robot_msgs_egg
+[0.884s] [  6%] Built target robot_msgs__cpp
+[0.913s] [  9%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/euler_to_quaternion__description.c.o[0m
+[0.913s] [ 11%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/euler_to_quaternion__functions.c.o[0m
+[0.913s] [ 13%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/euler_to_quaternion__type_support.c.o[0m
+[0.916s] [ 15%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/quaternion_to_euler__description.c.o[0m
+[0.918s] [ 18%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/quaternion_to_euler__functions.c.o[0m
+[0.959s] [ 20%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/quaternion_to_euler__type_support.c.o[0m
+[0.987s] [ 22%] [32m[1mLinking C shared library librobot_msgs__rosidl_generator_c.so[0m
+[1.012s] [ 22%] Built target robot_msgs__rosidl_generator_c
+[1.019s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.023s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.023s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.034s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.035s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.327s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[1.335s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[1.361s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o[0m
+[1.394s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[1.396s] [ 45%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msgs/srv/detail/euler_to_quaternion__type_support.c.o[0m
+[1.434s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msgs/srv/detail/euler_to_quaternion__type_support.cpp.o[0m
+[1.451s] [ 50%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msgs/srv/detail/quaternion_to_euler__type_support.c.o[0m
+[1.460s] [ 52%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_c.so[0m
+[1.494s] [ 54%] [32m[1mLinking C shared library librobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.533s] [ 54%] Built target robot_msgs__rosidl_typesupport_c
+[1.537s] [ 54%] Built target robot_msgs__rosidl_typesupport_introspection_c
+[1.554s] [ 56%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.559s] [ 59%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o[0m
+[1.730s] [ 61%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[1.832s] [ 63%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msgs/srv/detail/quaternion_to_euler__type_support.cpp.o[0m
+[1.942s] [ 65%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msgs/srv/detail/euler_to_quaternion__type_support_c.cpp.o[0m
+[1.946s] [ 68%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msgs/srv/detail/quaternion_to_euler__type_support_c.cpp.o[0m
+[2.014s] [ 70%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_cpp.so[0m
+[2.032s] [ 72%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.034s] [ 75%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.053s] [ 75%] Built target robot_msgs__rosidl_typesupport_cpp
+[2.072s] [ 75%] Built target robot_msgs__rosidl_typesupport_introspection_cpp
+[2.082s] [ 75%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp
+[2.201s] [ 77%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.225s] [ 77%] Built target robot_msgs__rosidl_typesupport_fastrtps_c
+[2.236s] [ 77%] Built target robot_msgs
+[2.247s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.504s] [ 79%] Built target robot_msgs__py
+[2.512s] [ 81%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_msgs/srv/_euler_to_quaternion_s.c.o[0m
+[2.512s] [ 84%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_msgs/srv/_quaternion_to_euler_s.c.o[0m
+[2.583s] [ 86%] [32m[1mLinking C shared library librobot_msgs__rosidl_generator_py.so[0m
+[2.605s] [ 86%] Built target robot_msgs__rosidl_generator_py
+[2.621s] [ 88%] [32mBuilding C object CMakeFiles/robot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.626s] [ 90%] [32mBuilding C object CMakeFiles/robot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.629s] [ 93%] [32mBuilding C object CMakeFiles/robot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.680s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[2.692s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.692s] [100%] [32m[1mLinking C shared module rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_c.so[0m
+[2.694s] [100%] Built target robot_msgs_s__rosidl_typesupport_introspection_c
+[2.706s] [100%] Built target robot_msgs_s__rosidl_typesupport_c
+[2.706s] [100%] Built target robot_msgs_s__rosidl_typesupport_fastrtps_c
+[2.713s] Invoked command in '/home/kartik/robot_arm/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/build/robot_msgs -- -j5 -l5
+[2.713s] Invoking command in '/home/kartik/robot_arm/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/build/robot_msgs
+[2.718s] -- Install configuration: ""
+[2.718s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/ament_index/resource_index/rosidl_interfaces/robot_msgs
+[2.718s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/srv/EulerToQuaternion.json
+[2.718s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/srv/QuaternionToEuler.json
+[2.718s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/my_message.h
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__type_support.h
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__functions.h
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__type_support.c
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__struct.h
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__description.c
+[2.719s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__functions.c
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/euler_to_quaternion.h
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/quaternion_to_euler.h
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__struct.h
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__type_support.c
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__functions.h
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__type_support.c
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__type_support.h
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__type_support.h
+[2.719s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__description.c
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__struct.h
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__description.c
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__functions.h
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__functions.c
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__functions.c
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/library_path.sh
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/library_path.dsv
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so
+[2.720s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so" to ""
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__rosidl_typesupport_fastrtps_c.h
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_c.h
+[2.720s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so
+[2.720s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.720s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/my_message.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__type_support.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__struct.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__traits.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__builder.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/quaternion_to_euler.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/euler_to_quaternion.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__traits.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__type_support.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__builder.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__type_support.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__struct.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__struct.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__builder.hpp
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__traits.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/dds_fastrtps
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__rosidl_typesupport_fastrtps_cpp.hpp
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.721s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.721s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/dds_fastrtps
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.722s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__type_support.c
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__rosidl_typesupport_introspection_c.h
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.722s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__type_support.c
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__type_support.c
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so
+[2.722s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.722s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so
+[2.723s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so" to ""
+[2.723s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs
+[2.723s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[2.723s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail
+[2.723s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__type_support.cpp
+[2.723s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/msg/detail/my_message__rosidl_typesupport_introspection_cpp.hpp
+[2.723s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[2.723s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[2.723s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_cpp.hpp
+[2.723s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_cpp.hpp
+[2.723s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/euler_to_quaternion__type_support.cpp
+[2.723s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/quaternion_to_euler__type_support.cpp
+[2.723s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so
+[2.723s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.723s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so
+[2.724s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so" to ""
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/pythonpath.sh
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/pythonpath.dsv
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs-0.0.0-py3.12.egg-info
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/msg
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/msg/_my_message.py
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/msg/__init__.py
+[2.724s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/msg/_my_message_s.c
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/_euler_to_quaternion_s.c
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/__init__.py
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/_quaternion_to_euler_s.c
+[2.724s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/_euler_to_quaternion.py
+[2.725s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/_quaternion_to_euler.py
+[2.725s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.725s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.so
+[2.725s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c
+[2.725s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.725s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/__init__.py
+[2.725s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.so
+[2.746s] Listing '/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs'...
+[2.746s] Compiling '/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/__init__.py'...
+[2.746s] Listing '/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/msg'...
+[2.746s] Listing '/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv'...
+[2.746s] Compiling '/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/__init__.py'...
+[2.746s] Compiling '/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/_euler_to_quaternion.py'...
+[2.746s] Compiling '/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/srv/_quaternion_to_euler.py'...
+[2.750s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.750s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.750s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.so
+[2.750s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[2.750s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.so
+[2.750s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/python3.12/site-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.so" to ""
+[2.751s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so
+[2.751s] -- Set non-toolchain portion of runtime path of "/home/kartik/robot_arm/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so" to ""
+[2.751s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/srv/EulerToQuaternion.idl
+[2.751s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/srv/QuaternionToEuler.idl
+[2.751s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/srv/EulerToQuaternion.srv
+[2.751s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/srv/QuaternionToEuler.srv
+[2.751s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/ament_index/resource_index/package_run_dependencies/robot_msgs
+[2.751s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/ament_index/resource_index/parent_prefix_path/robot_msgs
+[2.751s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.sh
+[2.751s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.dsv
+[2.751s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/path.sh
+[2.751s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/environment/path.dsv
+[2.751s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/local_setup.bash
+[2.752s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/local_setup.sh
+[2.752s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/local_setup.zsh
+[2.752s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/local_setup.dsv
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/package.dsv
+[2.752s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/ament_index/resource_index/packages/robot_msgs
+[2.752s] -- Old export file "/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake].
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.752s] -- Old export file "/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cppExport.cmake
+[2.752s] -- Old export file "/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.752s] -- Old export file "/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.752s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.752s] -- Old export file "/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake].
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.753s] -- Old export file "/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.753s] -- Old export file "/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake].
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.753s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport.cmake
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake-extras.cmake
+[2.753s] -- Installing: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.753s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.753s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.753s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.754s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.754s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.754s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig.cmake
+[2.754s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig-version.cmake
+[2.754s] -- Up-to-date: /home/kartik/robot_arm/install/robot_msgs/share/robot_msgs/package.xml
+[2.755s] Invoked command in '/home/kartik/robot_arm/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/build/robot_msgs

@@ -81,6 +81,14 @@
 
   <xacro:macro name="ur5_robot" params="prefix joint_limited">
 
+    <link name="world"/>
+
+    <joint name="virtual_joint" type="fixed"> <!--defining the joint that fixes the base of the arm to the ground-->
+      <parent link="world"/>
+      <child link="base_link"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </joint>
+  
     <link name="${prefix}base_link" >
       <visual>
         <geometry>

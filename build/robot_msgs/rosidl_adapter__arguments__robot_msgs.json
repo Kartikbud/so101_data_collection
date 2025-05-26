@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_msgs",
+  "non_idl_tuples": [
+    "/home/kartik/robot_arm/src/robot_msgs:srv/EulerToQuaternion.srv",
+    "/home/kartik/robot_arm/src/robot_msgs:srv/QuaternionToEuler.srv"
+  ]
+}
