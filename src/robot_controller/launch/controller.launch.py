@@ -28,7 +28,8 @@ def generate_launch_description():
         package="controller_manager",
         executable="ros2_control_node",
         parameters=[
-            {"robot_description" : robot_description},
+            {"robot_description" : robot_description,
+             "use_sim_time" : True},
             os.path.join(
                 get_package_share_directory("robot_controller"),
                 "config",
