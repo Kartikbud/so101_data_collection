@@ -1,0 +1,15 @@
+/home/kartik/robot_arm/install/robot_moveit/share/ament_index/resource_index/package_run_dependencies/robot_moveit
+/home/kartik/robot_arm/install/robot_moveit/share/ament_index/resource_index/parent_prefix_path/robot_moveit
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.sh
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.dsv
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/environment/path.sh
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/environment/path.dsv
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/local_setup.bash
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/local_setup.sh
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/local_setup.zsh
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/local_setup.dsv
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/package.dsv
+/home/kartik/robot_arm/install/robot_moveit/share/ament_index/resource_index/packages/robot_moveit
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig.cmake
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/package.xml

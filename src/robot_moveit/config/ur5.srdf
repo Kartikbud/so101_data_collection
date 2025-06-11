@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot name="ur5">
+
+    <group name="arm">
+        <joint name="virtual_joint"/>
+
+        <joint name="shoulder_pan_joint"/>
+        <joint name="shoulder_lift_joint"/>
+        <joint name="elbow_joint"/>
+        <joint name="wrist_1_joint"/>
+        <joint name="wrist_2_joint"/>
+        <joint name="wrist_3_joint"/>
+
+        <joint name="ee_fixed_joint"/>
+    </group>
+
+    <group_state name="home" group="arm">
+        <joint name="shoulder_pan_joint" value="0"/>
+        <joint name="shoulder_lift_joint" value="0"/>
+        <joint name="elbow_joint" value="0"/>
+        <joint name="wrist_1_joint" value="0"/>
+        <joint name="wrist_2_joint" value="0"/>
+        <joint name="wrist_3_joint" value="0"/>
+    </group_state>
+
+    <disable_collision link1="base_link" link2="shoulder_link" reason="Adjacent"/>
+    <!--maybe add more if behaves weird-->
+
+</robot>
