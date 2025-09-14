@@ -15,7 +15,7 @@ def generate_launch_description():
     robot_description_dir = get_package_share_directory("robot_description")
 
     model_arg = DeclareLaunchArgument(name="model", 
-                                      default_value=os.path.join(robot_description_dir, "urdf", "ur5.urdf.xacro"),
+                                      default_value=os.path.join(robot_description_dir, "so-101", "so101.urdf.xacro"),
                                       description="absolute value to the robot urdf file") #decalring a launch argument for hte launch file
 
     gazebo_resource_path = SetEnvironmentVariable( #this chunk of code essentially tells gazebo where to look for all the required plugins/libraries and packages, just needs to check the description package

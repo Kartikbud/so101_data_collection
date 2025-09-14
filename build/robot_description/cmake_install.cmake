@@ -48,6 +48,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/kartik/robot_arm/src/robot_description/meshes"
     "/home/kartik/robot_arm/src/robot_description/launch"
     "/home/kartik/robot_arm/src/robot_description/rviz"
+    "/home/kartik/robot_arm/src/robot_description/so-101"
     )
 endif()
 

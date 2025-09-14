@@ -11,7 +11,7 @@ def generate_launch_description():
         Command(
             [
                 "xacro ",
-                os.path.join(get_package_share_directory("robot_description"), "urdf", "ur5.urdf.xacro")
+                os.path.join(get_package_share_directory("robot_description"), "so-101", "so101.urdf.xacro")
             ]
         ),
         value_type=str
@@ -33,7 +33,7 @@ def generate_launch_description():
             os.path.join(
                 get_package_share_directory("robot_controller"),
                 "config",
-                "ur5_controllers.yaml"
+                "so101_controllers.yaml"
             )
         ]
     )

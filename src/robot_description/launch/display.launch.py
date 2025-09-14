@@ -10,7 +10,7 @@ from ament_index_python.packages import get_package_share_directory #finds a pac
 
 def generate_launch_description():
     model_arg = DeclareLaunchArgument(name="model", 
-                                      default_value=os.path.join(get_package_share_directory("robot_description"), "urdf", "ur5.urdf.xacro"),
+                                      default_value=os.path.join(get_package_share_directory("robot_description"), "so-101", "so101.urdf.xacro"),
                                       description="absolute value to the robot urdf file") #decalring a launch argument for hte launch file
 
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")])) #essentially defining the description as the urdf model converted to a xacro

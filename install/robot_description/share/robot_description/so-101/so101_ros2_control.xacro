@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="so101">
+
+    <xacro:property name="my_pi" value="3.14159265"/>
+
+
+    <ros2_control type="system" name="RobotSystem">
+
+        <hardware>
+            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </hardware>
+
+        <joint name="shoulder_pan">
+            <!--defining how this joint is controller-->
+            <command_interface name="position"> <!--controlled based on position-->
+                <param name="min">-${my_pi}</param>
+                <param name="max">${my_pi}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="shoulder_lift">
+            <command_interface name="position">
+                <param name="min">-${my_pi}</param>
+                <param name="max">${my_pi}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="elbow_flex">
+            <command_interface name="position">
+                <param name="min">-${my_pi}</param>
+                <param name="max">${my_pi}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="wrist_flex">
+            <command_interface name="position">
+                <param name="min">-${my_pi}</param>
+                <param name="max">${my_pi}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="wrist_roll">
+            <command_interface name="position">
+                <param name="min">-${my_pi}</param>
+                <param name="max">${my_pi}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="gripper">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+    </ros2_control>
+
+
+</robot>
