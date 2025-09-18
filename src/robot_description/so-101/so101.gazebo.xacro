@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="so101">
 
-  <xacro:macro name="so101_gazebo">
-    <gazebo>
-      <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-        <!--<parameters>$(find robot_controller)/config/ur5_controllers.yaml</parameters>-->
-      </plugin>
-    </gazebo>
-  </xacro:macro>
+
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find robot_controller)/config/so101_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
 
 </robot>

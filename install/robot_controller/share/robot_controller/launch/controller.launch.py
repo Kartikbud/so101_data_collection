@@ -12,6 +12,7 @@ def generate_launch_description():
             [
                 "xacro ",
                 os.path.join(get_package_share_directory("robot_description"), "so-101", "so101.urdf.xacro")
+                #os.path.join(get_package_share_directory("robot_description"), "urdf", "ur5.urdf.xacro")
             ]
         ),
         value_type=str

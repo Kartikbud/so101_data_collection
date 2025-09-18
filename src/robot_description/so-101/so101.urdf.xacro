@@ -14,6 +14,14 @@
     <color rgba="0.1 0.1 0.1 1.0"/>
   </material>
 
+  <link name="world"/> <!--defining link to pin arm to the ground-->
+
+  <joint name="virtual_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+
   <!-- Link base -->
   <link name="base_link">
     <inertial>

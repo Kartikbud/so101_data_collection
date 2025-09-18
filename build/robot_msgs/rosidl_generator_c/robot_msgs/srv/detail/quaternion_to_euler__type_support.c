@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "robot_msgs/srv/detail/quaternion_to_euler__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "robot_msgs/srv/detail/quaternion_to_euler__type_support.h"
 #include "robot_msgs/srv/detail/quaternion_to_euler__functions.h"
-#include "robot_msgs/srv/detail/quaternion_to_euler__struct.h"
 
 #ifdef __cplusplus
 extern "C"

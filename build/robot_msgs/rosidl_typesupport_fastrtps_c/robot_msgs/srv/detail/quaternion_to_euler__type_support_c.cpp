@@ -1037,6 +1037,16 @@ bool cdr_deserialize_robot_msgs__srv__QuaternionToEuler_Event(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->request.data) {
       robot_msgs__srv__QuaternionToEuler_Request__Sequence__fini(&ros_message->request);
     }
@@ -1055,6 +1065,16 @@ bool cdr_deserialize_robot_msgs__srv__QuaternionToEuler_Event(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->response.data) {
       robot_msgs__srv__QuaternionToEuler_Response__Sequence__fini(&ros_message->response);
     }
