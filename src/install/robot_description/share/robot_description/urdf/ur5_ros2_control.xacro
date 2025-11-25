@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur5">
+
+    <xacro:property name="my_pi" value="3.14159265"/>
+
+    <xacro:macro name="ur5_arm_ros2_control">
+        <ros2_control type="system" name="RobotSystem">
+
+            <hardware>
+                <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+            </hardware>
+
+            <!--Joint Configuration-->
+
+            <joint name="shoulder_pan_joint">
+                <!--defining how this joint is controller-->
+                <command_interface name="position"> <!--controlled based on position-->
+                    <param name="min">-${my_pi}</param>
+                    <param name="max">${my_pi}</param>
+                </command_interface>
+                <state_interface name="position"/>
+            </joint>
+
+            <joint name="shoulder_lift_joint">
+                <command_interface name="position">
+                    <param name="min">-${my_pi}</param>
+                    <param name="max">${my_pi}</param>
+                </command_interface>
+                <state_interface name="position"/>
+            </joint>
+
+            <joint name="elbow_joint">
+                <command_interface name="position">
+                    <param name="min">-${my_pi}</param>
+                    <param name="max">${my_pi}</param>
+                </command_interface>
+                <state_interface name="position"/>
+            </joint>
+
+            <joint name="wrist_1_joint">
+                <command_interface name="position">
+                    <param name="min">-${my_pi}</param>
+                    <param name="max">${my_pi}</param>
+                </command_interface>
+                <state_interface name="position"/>
+            </joint>
+
+            <joint name="wrist_2_joint">
+                <command_interface name="position">
+                    <param name="min">-${my_pi}</param>
+                    <param name="max">${my_pi}</param>
+                </command_interface>
+                <state_interface name="position"/>
+            </joint>
+
+            <joint name="wrist_3_joint">
+                <command_interface name="position">
+                    <param name="min">-${my_pi}</param>
+                    <param name="max">${my_pi}</param>
+                </command_interface>
+                <state_interface name="position"/>
+            </joint>
+
+        </ros2_control>
+    </xacro:macro>
+
+</robot>

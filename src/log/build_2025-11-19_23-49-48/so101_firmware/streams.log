@@ -1,0 +1,42 @@
+[0.019s] Invoking command in '/home/kartik/robot_arm/src/build/so101_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kartik/robot_arm/src/so101_firmware -DCMAKE_INSTALL_PREFIX=/home/kartik/robot_arm/src/install/so101_firmware
+[0.081s] -- The C compiler identification is GNU 13.3.0
+[0.155s] -- The CXX compiler identification is GNU 13.3.0
+[0.174s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.424s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.445s] -- Detecting CXX compile features - done
+[0.448s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.646s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.814s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.957s] -- Added test 'lint_cmake' to check CMake code style
+[0.959s] -- Added test 'xmllint' to check XML markup files
+[0.962s] -- Configuring done (0.9s)
+[0.968s] -- Generating done (0.0s)
+[0.969s] -- Build files have been written to: /home/kartik/robot_arm/src/build/so101_firmware
+[0.976s] Invoked command in '/home/kartik/robot_arm/src/build/so101_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kartik/robot_arm/src/so101_firmware -DCMAKE_INSTALL_PREFIX=/home/kartik/robot_arm/src/install/so101_firmware
+[0.977s] Invoking command in '/home/kartik/robot_arm/src/build/so101_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/src/build/so101_firmware -- -j8 -l8
+[1.027s] Invoked command in '/home/kartik/robot_arm/src/build/so101_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/src/build/so101_firmware -- -j8 -l8
+[1.028s] Invoking command in '/home/kartik/robot_arm/src/build/so101_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/src/build/so101_firmware
+[1.039s] -- Install configuration: ""
+[1.039s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/ament_index/resource_index/package_run_dependencies/so101_firmware
+[1.040s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/ament_index/resource_index/parent_prefix_path/so101_firmware
+[1.041s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/ament_prefix_path.sh
+[1.041s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/ament_prefix_path.dsv
+[1.042s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/path.sh
+[1.042s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/path.dsv
+[1.042s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.bash
+[1.043s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.sh
+[1.043s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.zsh
+[1.043s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.dsv
+[1.044s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/package.dsv
+[1.044s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/ament_index/resource_index/packages/so101_firmware
+[1.044s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/cmake/so101_firmwareConfig.cmake
+[1.045s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/cmake/so101_firmwareConfig-version.cmake
+[1.045s] -- Installing: /home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/package.xml
+[1.048s] Invoked command in '/home/kartik/robot_arm/src/build/so101_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/src/build/so101_firmware

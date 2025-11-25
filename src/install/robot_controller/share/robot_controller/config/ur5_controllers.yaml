@@ -1,0 +1,29 @@
+controller_manager: #configuring the controller manager node
+  ros__parameters:
+    update_rate: 10
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController #this type of controller requires a full trajectory for the joints to move with
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+arm_controller:
+  ros__parameters:
+    joints: #defining the joints that the controller operates
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+
+    command_interfaces:
+      - position
+    
+    state_interfaces:
+      - position
+    
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+  

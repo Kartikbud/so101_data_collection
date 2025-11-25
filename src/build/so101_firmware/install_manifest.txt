@@ -1,0 +1,15 @@
+/home/kartik/robot_arm/src/install/so101_firmware/share/ament_index/resource_index/package_run_dependencies/so101_firmware
+/home/kartik/robot_arm/src/install/so101_firmware/share/ament_index/resource_index/parent_prefix_path/so101_firmware
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/ament_prefix_path.sh
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/ament_prefix_path.dsv
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/path.sh
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/environment/path.dsv
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.bash
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.sh
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.zsh
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/local_setup.dsv
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/package.dsv
+/home/kartik/robot_arm/src/install/so101_firmware/share/ament_index/resource_index/packages/so101_firmware
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/cmake/so101_firmwareConfig.cmake
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/cmake/so101_firmwareConfig-version.cmake
+/home/kartik/robot_arm/src/install/so101_firmware/share/so101_firmware/package.xml

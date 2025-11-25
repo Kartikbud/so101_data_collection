@@ -131,7 +131,7 @@ librobot_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librmw.so
 librobot_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
 librobot_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 librobot_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
-librobot_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.12.so
+librobot_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
 librobot_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 librobot_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 librobot_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so

@@ -1,0 +1,4 @@
+srv/EulerToQuaternion.idl
+srv/EulerToQuaternion.srv
+srv/QuaternionToEuler.idl
+srv/QuaternionToEuler.srv

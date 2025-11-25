@@ -1,0 +1,2 @@
+/home/kartik/robot_arm/src/build/robot_msgs/rosidl_adapter/robot_msgs:srv/EulerToQuaternion.idl
+/home/kartik/robot_arm/src/build/robot_msgs/rosidl_adapter/robot_msgs:srv/QuaternionToEuler.idl

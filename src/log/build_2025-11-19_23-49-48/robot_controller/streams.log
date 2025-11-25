@@ -1,0 +1,50 @@
+[0.017s] Invoking command in '/home/kartik/robot_arm/src/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kartik/robot_arm/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/kartik/robot_arm/src/install/robot_controller
+[0.079s] -- The C compiler identification is GNU 13.3.0
+[0.156s] -- The CXX compiler identification is GNU 13.3.0
+[0.176s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.303s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.313s] -- Detecting CXX compiler ABI info
+[0.452s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.478s] -- Detecting CXX compile features - done
+[0.481s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.691s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.863s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.003s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.003s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.005s] -- Added test 'lint_cmake' to check CMake code style
+[1.006s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.009s] -- Added test 'xmllint' to check XML markup files
+[1.013s] -- Configuring done (1.0s)
+[1.020s] -- Generating done (0.0s)
+[1.023s] -- Build files have been written to: /home/kartik/robot_arm/src/build/robot_controller
+[1.035s] Invoked command in '/home/kartik/robot_arm/src/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kartik/robot_arm/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/kartik/robot_arm/src/install/robot_controller
+[1.036s] Invoking command in '/home/kartik/robot_arm/src/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/src/build/robot_controller -- -j8 -l8
+[1.104s] Invoked command in '/home/kartik/robot_arm/src/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/src/build/robot_controller -- -j8 -l8
+[1.105s] Invoking command in '/home/kartik/robot_arm/src/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/src/build/robot_controller
+[1.113s] -- Install configuration: ""
+[1.113s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/config
+[1.114s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/config/so101_controllers.yaml
+[1.114s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/config/ur5_controllers.yaml
+[1.114s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/launch
+[1.114s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[1.114s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[1.114s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[1.115s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[1.115s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[1.115s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/environment/path.sh
+[1.115s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/environment/path.dsv
+[1.115s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/local_setup.bash
+[1.115s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/local_setup.sh
+[1.116s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/local_setup.zsh
+[1.116s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/local_setup.dsv
+[1.116s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/package.dsv
+[1.116s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[1.116s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[1.116s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[1.117s] -- Installing: /home/kartik/robot_arm/src/install/robot_controller/share/robot_controller/package.xml
+[1.118s] Invoked command in '/home/kartik/robot_arm/src/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/src/build/robot_controller
