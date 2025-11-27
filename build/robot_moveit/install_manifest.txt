@@ -5,6 +5,12 @@
 /home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/ur5_config/ur5.srdf
 /home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/ur5_config/moveit_controllers.yaml
 /home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/ur5_config/kinematics.yaml
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/so101_config/initial_positions.yaml
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/so101_config/pilz_cartesian_limits.yaml
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/so101_config/joint_limits.yaml
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/so101_config/moveit_controllers.yaml
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/so101_config/kinematics.yaml
+/home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/so101_config/so101.srdf
 /home/kartik/robot_arm/install/robot_moveit/share/ament_index/resource_index/package_run_dependencies/robot_moveit
 /home/kartik/robot_arm/install/robot_moveit/share/ament_index/resource_index/parent_prefix_path/robot_moveit
 /home/kartik/robot_arm/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.sh

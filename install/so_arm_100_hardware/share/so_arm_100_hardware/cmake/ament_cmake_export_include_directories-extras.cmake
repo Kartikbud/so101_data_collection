@@ -1,0 +1,1 @@
+/home/kartik/robot_arm/build/so_arm_100_hardware/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

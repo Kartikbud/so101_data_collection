@@ -1,0 +1,1 @@
+/home/kartik/robot_arm/src/so_arm_100_hardware/include/SCServo_Linux/SMS_STS.h

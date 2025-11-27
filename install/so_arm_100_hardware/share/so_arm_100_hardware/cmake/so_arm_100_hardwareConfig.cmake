@@ -1,0 +1,1 @@
+/home/kartik/robot_arm/build/so_arm_100_hardware/ament_cmake_core/so_arm_100_hardwareConfig.cmake

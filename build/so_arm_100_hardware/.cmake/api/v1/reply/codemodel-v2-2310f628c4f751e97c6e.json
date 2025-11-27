@@ -1,0 +1,139 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bef9fb18a8df8d68d6f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "include/SCServo_Linux",
+					"jsonFile" : "directory-include.SCServo_Linux-fac17dbee04462f1e402.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "include/SCServo_Linux",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "so_arm_100_hardware",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SCServo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SCServo::@f65380b19e07b075ae91",
+					"jsonFile" : "target-SCServo-84126e7351396c2599eb.json",
+					"name" : "SCServo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping_test-d5daea3e1e9044d3408e.json",
+					"name" : "ping_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so_arm_100_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so_arm_100_hardware-b0e8b27670b7d41dc72a.json",
+					"name" : "so_arm_100_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so_arm_100_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so_arm_100_hardware_uninstall-832eaac72b09cad65e20.json",
+					"name" : "so_arm_100_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_servo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_servo-28a744a0454c1a554d0a.json",
+					"name" : "test_servo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-020cb6587bc896f1a2b9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kartik/robot_arm/build/so_arm_100_hardware",
+		"source" : "/home/kartik/robot_arm/src/so_arm_100_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
