@@ -774,6 +774,7 @@ CMakeFiles/so_arm_100_hardware.dir/src/so_arm_100_interface.cpp.o: \
  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp \
  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp \
  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
+ /opt/ros/jazzy/include/rclcpp/rclcpp/version.h \
  /opt/ros/jazzy/include/realtime_tools/realtime_tools/async_function_handler.hpp \
  /opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_helpers.hpp \
  /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \

@@ -14,6 +14,10 @@
   <ros2_control name="RobotSystem" type="system">
     <hardware>
       <plugin>so_arm_100_controller/SOARM100Interface</plugin>
+      <param name="use_serial">true</param>
+      <param name="serial_port">/dev/ttyACM0</param>
+      <param name="serial_baudrate">1000000</param>
+      <param name="calibration_file">/home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/config/calibration.yaml</param>
     </hardware>
     <joint name="shoulder_pan">
       <!--defining how this joint is controller-->

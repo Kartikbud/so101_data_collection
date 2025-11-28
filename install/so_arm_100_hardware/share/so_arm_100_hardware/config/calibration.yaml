@@ -1,1 +1,80 @@
-/home/kartik/robot_arm/src/so_arm_100_hardware/config/calibration.yaml
+timestamp: '2025-11-27T18:09:19.791979'
+joints:
+  shoulder_pan:
+    min:
+      ticks: 3455
+      speed: 0
+      load: 0
+    center:
+      ticks: 32
+      speed: 0
+      load: 0
+    max:
+      ticks: 422
+      speed: 0
+      load: -1
+  shoulder_lift:
+    min:
+      ticks: 3955
+      speed: 0
+      load: 0
+    center:
+      ticks: 976
+      speed: 0
+      load: 0
+    max:
+      ticks: 2106
+      speed: -1
+      load: 0
+  elbow_flex:
+    min:
+      ticks: 2074
+      speed: 0
+      load: 0
+    center:
+      ticks: 3236
+      speed: 0
+      load: 0
+    max:
+      ticks: 176
+      speed: 0
+      load: 0
+  wrist_flex:
+    min:
+      ticks: 1914
+      speed: 0
+      load: 0
+    center:
+      ticks: 3038
+      speed: 0
+      load: 0
+    max:
+      ticks: 90
+      speed: 0
+      load: 0
+  wrist_roll:
+    min:
+      ticks: 1926
+      speed: 0
+      load: 0
+    center:
+      ticks: 59
+      speed: -50
+      load: -1
+    max:
+      ticks: 2255
+      speed: -50
+      load: 0
+  gripper:
+    min:
+      ticks: 198
+      speed: 0
+      load: 0
+    center:
+      ticks: 3136
+      speed: 0
+      load: 0
+    max:
+      ticks: 2899
+      speed: 0
+      load: 0

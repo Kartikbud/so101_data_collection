@@ -1,1 +1,1 @@
-/home/kartik/robot_arm/build/so_arm_100_hardware/ament_cmake_environment_hooks/library_path.dsv
+prepend-non-duplicate;LD_LIBRARY_PATH;lib

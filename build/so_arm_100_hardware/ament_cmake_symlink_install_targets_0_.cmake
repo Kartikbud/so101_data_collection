@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kartik/robot_arm/build/so_arm_100_hardware/libso_arm_100_hardware.so" "/home/kartik/robot_arm/build/so_arm_100_hardware/test_servo" "/home/kartik/robot_arm/build/so_arm_100_hardware/ping_test" "TARGETS" "so_arm_100_hardware" "test_servo" "ping_test" "DESTINATION" "lib/so_arm_100_hardware")

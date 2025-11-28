@@ -339,6 +339,7 @@ CMakeFiles/so_arm_100_hardware.dir/src/so_arm_100_interface.cpp.o
  /opt/ros/jazzy/include/rclcpp/rclcpp/type_support_decl.hpp
  /opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp
  /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp
+ /opt/ros/jazzy/include/rclcpp/rclcpp/version.h
  /opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp
  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp
  /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp
