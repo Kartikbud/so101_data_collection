@@ -3,6 +3,7 @@
 /home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/library_path.dsv
 /home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/config/calibration.yaml
 /home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/config/posses/zero.txt
+/home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/config/poses/urdf.yaml
 /home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/config/hardware_config.yaml
 /home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.cpp
 /home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.h

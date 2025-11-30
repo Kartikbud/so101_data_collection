@@ -1,0 +1,47 @@
+[0.022s] Invoking command in '/home/kartik/robot_arm/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kartik/robot_arm/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/kartik/robot_arm/install/robot_bringup
+[0.190s] -- The C compiler identification is GNU 13.3.0
+[0.295s] -- The CXX compiler identification is GNU 13.3.0
+[0.317s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.418s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.419s] -- Detecting C compile features
+[0.420s] -- Detecting C compile features - done
+[0.429s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.558s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.711s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.867s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.982s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.982s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.984s] -- Added test 'lint_cmake' to check CMake code style
+[0.985s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.986s] -- Added test 'xmllint' to check XML markup files
+[0.988s] -- Configuring done (1.0s)
+[0.991s] -- Generating done (0.0s)
+[0.994s] -- Build files have been written to: /home/kartik/robot_arm/build/robot_bringup
+[0.999s] Invoked command in '/home/kartik/robot_arm/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kartik/robot_arm/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/kartik/robot_arm/install/robot_bringup
+[1.000s] Invoking command in '/home/kartik/robot_arm/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/build/robot_bringup -- -j8 -l8
+[1.039s] Invoked command in '/home/kartik/robot_arm/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/build/robot_bringup -- -j8 -l8
+[1.040s] Invoking command in '/home/kartik/robot_arm/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/build/robot_bringup
+[1.048s] -- Install configuration: ""
+[1.049s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/launch
+[1.049s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/launch/simulated_robot.launch.py
+[1.049s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+[1.049s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+[1.049s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+[1.049s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+[1.049s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/environment/path.sh
+[1.050s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/environment/path.dsv
+[1.050s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/local_setup.bash
+[1.050s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/local_setup.sh
+[1.050s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/local_setup.zsh
+[1.050s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/local_setup.dsv
+[1.050s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/package.dsv
+[1.050s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[1.051s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+[1.051s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+[1.051s] -- Installing: /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/package.xml
+[1.053s] Invoked command in '/home/kartik/robot_arm/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/build/robot_bringup
