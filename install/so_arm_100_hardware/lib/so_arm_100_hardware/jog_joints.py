@@ -18,15 +18,15 @@ class JogTool(Node):
     def __init__(self):
         super().__init__('jog_tool')
         
-        # Split joints into arm and gripper
-        self.arm_joints = [
+        # Controller expects all six joints in one trajectory
+        self.controller_joints = [
             'shoulder_pan',
             'shoulder_lift',
             'elbow_flex',
             'wrist_flex',
-            'wrist_roll'
+            'wrist_roll',
+            'gripper'
         ]
-        self.gripper_joint = 'gripper'
         
         # For tracking current positions
         self.joint_positions = {}
@@ -42,12 +42,6 @@ class JogTool(Node):
             FollowJointTrajectory,
             '/arm_controller/follow_joint_trajectory'
         )
-        
-        # For gripper control
-        self.gripper_pub = self.create_publisher(
-            JointTrajectory,
-            '/arm_controller/joint_trajectory',
-            10)
         
         # For toggling torque
         self.torque_client = self.create_client(Trigger, '/toggle_torque')
@@ -70,52 +64,34 @@ class JogTool(Node):
         
     def joint_state_callback(self, msg):
         for i, name in enumerate(msg.name):
-            if name in self.arm_joints or name == self.gripper_joint:
+            if name in self.controller_joints:
                 self.joint_positions[name] = msg.position[i]
                 
     def move_joint(self, delta):
         # Get the correct joint name and index
-        if self.selected_joint < len(self.arm_joints):
-            joint_name = self.arm_joints[self.selected_joint]
-            joint_index = self.selected_joint
-            # self.get_logger().info(f'Moving arm joint: {joint_name} at index {joint_index}')
-        else:
-            joint_name = self.gripper_joint
-            # self.get_logger().info(f'Moving gripper joint: {joint_name}')
+        joint_name = self.controller_joints[self.selected_joint]
+        joint_index = self.selected_joint
         
         current_pos = self.joint_positions.get(joint_name, 0.0)
         new_pos = current_pos + delta
         
-        if joint_name in self.arm_joints:
-            # Send arm trajectory
-            goal_msg = FollowJointTrajectory.Goal()
-            goal_msg.trajectory.joint_names = self.arm_joints
-            
-            point = JointTrajectoryPoint()
-            # Initialize with current positions
-            point.positions = [self.joint_positions.get(j, 0.0) for j in self.arm_joints]
-            # Only modify the selected joint
-            point.positions[joint_index] = new_pos
+        # Send trajectory including all controller joints
+        goal_msg = FollowJointTrajectory.Goal()
+        goal_msg.trajectory.joint_names = self.controller_joints
+        
+        point = JointTrajectoryPoint()
+        # Initialize with current positions
+        point.positions = [self.joint_positions.get(j, 0.0) for j in self.controller_joints]
+        # Only modify the selected joint
+        point.positions[joint_index] = new_pos
 
-            point.velocities = [0.0] * len(self.arm_joints)
-            point.accelerations = [0.0] * len(self.arm_joints)
-            point.time_from_start.sec = 0
-            point.time_from_start.nanosec = 100_000_000
-            
-            goal_msg.trajectory.points = [point]
-            self.arm_client.send_goal_async(goal_msg)
-        else:
-            # Send gripper command
-            msg = JointTrajectory()
-            msg.joint_names = [self.gripper_joint]
-            
-            point = JointTrajectoryPoint()
-            point.positions = [new_pos]
-            point.time_from_start.sec = 0
-            point.time_from_start.nanosec = 100_000_000
-            
-            msg.points = [point]
-            self.gripper_pub.publish(msg)
+        point.velocities = [0.0] * len(self.controller_joints)
+        point.accelerations = [0.0] * len(self.controller_joints)
+        point.time_from_start.sec = 0
+        point.time_from_start.nanosec = 100_000_000
+        
+        goal_msg.trajectory.points = [point]
+        self.arm_client.send_goal_async(goal_msg)
             
         # self.get_logger().info(f'Moving {joint_name} from {current_pos:.3f} to {new_pos:.3f}')
         
@@ -141,28 +117,17 @@ class JogTool(Node):
 
             # Send arm trajectory
             arm_goal = FollowJointTrajectory.Goal()
-            arm_goal.trajectory.joint_names = self.arm_joints  # Only arm joints
+            arm_goal.trajectory.joint_names = self.controller_joints
             
             point = JointTrajectoryPoint()
-            # Get positions only for arm joints
-            point.positions = [pose_data['positions'][joint] for joint in self.arm_joints]
-            point.velocities = [0.0] * len(self.arm_joints)
-            point.accelerations = [0.0] * len(self.arm_joints)
+            # Get positions for all controller joints
+            point.positions = [pose_data['positions'][joint] for joint in self.controller_joints]
+            point.velocities = [0.0] * len(self.controller_joints)
+            point.accelerations = [0.0] * len(self.controller_joints)
             point.time_from_start.sec = 2
             
             arm_goal.trajectory.points = [point]
             self.arm_client.send_goal_async(arm_goal)
-
-            # Send gripper command separately
-            gripper_msg = JointTrajectory()
-            gripper_msg.joint_names = [self.gripper_joint]
-            
-            gripper_point = JointTrajectoryPoint()
-            gripper_point.positions = [pose_data['positions'][self.gripper_joint]]
-            gripper_point.time_from_start.sec = 2
-            
-            gripper_msg.points = [gripper_point]
-            self.gripper_pub.publish(gripper_msg)
             
             self.status_message = f"Loaded pose '{pose_name}'"
             
@@ -215,7 +180,7 @@ def main(stdscr):
     
     while True:
         # Update display
-        for i, joint in enumerate(node.arm_joints + [node.gripper_joint]):
+        for i, joint in enumerate(node.controller_joints):
             prefix = ">" if i == node.selected_joint else " "
             pos = node.joint_positions.get(joint, 0.0)
             stdscr.addstr(i+10, 0, f"{prefix} {joint:<15} {pos:6.3f}")
@@ -254,9 +219,9 @@ def main(stdscr):
                 if key == ord('q'):
                     break
                 elif key == curses.KEY_UP:
-                    node.selected_joint = (node.selected_joint - 1) % len(node.arm_joints + [node.gripper_joint])
+                    node.selected_joint = (node.selected_joint - 1) % len(node.controller_joints)
                 elif key == curses.KEY_DOWN:
-                    node.selected_joint = (node.selected_joint + 1) % len(node.arm_joints + [node.gripper_joint])
+                    node.selected_joint = (node.selected_joint + 1) % len(node.controller_joints)
                 elif key == curses.KEY_LEFT:
                     node.move_joint(-node.step_size)
                 elif key == curses.KEY_RIGHT:

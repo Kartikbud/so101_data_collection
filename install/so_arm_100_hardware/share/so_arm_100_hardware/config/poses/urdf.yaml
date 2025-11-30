@@ -1,0 +1,9 @@
+name: urdf
+positions:
+  elbow_flex: -3.17445450143069
+  gripper: 1.377023551573479
+  shoulder_lift: 3.5318959006247974
+  shoulder_pan: -0.10242051897930787
+  wrist_flex: -3.3590875296075478
+  wrist_roll: 0.08753663740652706
+timestamp: '2025-11-29T21:18:38.468076'

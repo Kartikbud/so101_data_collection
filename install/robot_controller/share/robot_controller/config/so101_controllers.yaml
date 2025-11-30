@@ -1,6 +1,6 @@
 controller_manager: #configuring the controller manager node
   ros__parameters:
-    update_rate: 10
+    update_rate: 5
 
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController #this type of controller requires a full trajectory for the joints to move with

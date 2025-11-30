@@ -48,7 +48,7 @@
 /home/kartik/robot_arm/install/robot_description/share/robot_description/so-101/assets/base_motor_holder_so101_v1.stl
 /home/kartik/robot_arm/install/robot_description/share/robot_description/so-101/assets/sts3215_03a_v1.stl
 /home/kartik/robot_arm/install/robot_description/share/robot_description/so-101/so101.urdf.xacro
-/home/kartik/robot_arm/install/robot_description/share/robot_description/so-101/so101.urdf
+/home/kartik/robot_arm/install/robot_description/share/robot_description/so-101/hw_so101.urdf
 /home/kartik/robot_arm/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
 /home/kartik/robot_arm/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
 /home/kartik/robot_arm/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
