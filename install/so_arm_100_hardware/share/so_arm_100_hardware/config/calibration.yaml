@@ -6,7 +6,7 @@ joints:
       speed: 0
       load: 0
     center:
-      ticks: 48
+      ticks: 1929
       speed: 0
       load: 0
     max:
@@ -19,7 +19,7 @@ joints:
       speed: 0
       load: 0
     center:
-      ticks: 967
+      ticks: 2038
       speed: 0
       load: 0
     max:
@@ -32,7 +32,7 @@ joints:
       speed: 0
       load: 0
     center:
-      ticks: 3236
+      ticks: 2009
       speed: -1
       load: 0
     max:
@@ -45,7 +45,7 @@ joints:
       speed: 0
       load: 0
     center:
-      ticks: 3046
+      ticks: 2022
       speed: 0
       load: 0
     max:
@@ -58,7 +58,7 @@ joints:
       speed: 0
       load: 0
     center:
-      ticks: 66
+      ticks: 2068
       speed: 0
       load: 0
     max:
@@ -71,7 +71,7 @@ joints:
       speed: 0
       load: 0
     center:
-      ticks: 2949
+      ticks: 2116
       speed: 50
       load: 0
     max:

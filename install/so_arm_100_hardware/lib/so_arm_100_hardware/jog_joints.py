@@ -48,11 +48,17 @@ class JogTool(Node):
         while not self.torque_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Waiting for toggle_torque service...')
         
+        # For reading raw ticks on demand
+        self.record_client = self.create_client(Trigger, '/record_position')
+        while not self.record_client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Waiting for record_position service...')
+        
         self.selected_joint = 0
         self.step_size = 0.1  # radians
         self.status_message = ""
         self.torque_enabled = True
         self.torque_future = None  # Track the service call future
+        self.joint_ticks = {}
         
         # Set up poses directory in package share
         self.poses_dir = os.path.join(
@@ -61,11 +67,47 @@ class JogTool(Node):
             'poses'
         )
         os.makedirs(self.poses_dir, exist_ok=True)
+        # Load center ticks so we can show approximate raw ticks alongside radians
+        calib_path = os.path.join(
+            get_package_share_directory('so_arm_100_hardware'),
+            'config',
+            'calibration.yaml',
+        )
+        try:
+            with open(calib_path, 'r') as f:
+                calib = yaml.safe_load(f)['joints']
+            self.center_ticks = {name: calib[name]['center']['ticks'] for name in calib}
+        except Exception:
+            self.center_ticks = {}
+    
+    def refresh_ticks(self):
+        req = Trigger.Request()
+        future = self.record_client.call_async(req)
+        rclpy.spin_until_future_complete(self, future, timeout_sec=1.0)
+        if not future.done():
+            self.status_message = "Tick refresh timed out"
+            return
+        resp = future.result()
+        if not resp or not resp.success:
+            self.status_message = f"Tick refresh failed"
+            return
+        try:
+            data = yaml.safe_load(resp.message)
+            if isinstance(data, dict):
+                for name, info in data.items():
+                    if name in self.controller_joints and isinstance(info, dict) and 'ticks' in info:
+                        self.joint_ticks[name] = info['ticks']
+            self.status_message = "Ticks refreshed"
+        except Exception as e:
+            self.status_message = f"Tick parse error: {e}"
         
     def joint_state_callback(self, msg):
         for i, name in enumerate(msg.name):
             if name in self.controller_joints:
                 self.joint_positions[name] = msg.position[i]
+        # If you want tick display, pull from the feedback topic where ticks are published
+        # This assumes ticks are sent in the effort field; adjust if your feedback differs.
+        # You can also read centers from calibration.yaml for reference.
                 
     def move_joint(self, delta):
         # Get the correct joint name and index
@@ -183,7 +225,13 @@ def main(stdscr):
         for i, joint in enumerate(node.controller_joints):
             prefix = ">" if i == node.selected_joint else " "
             pos = node.joint_positions.get(joint, 0.0)
-            stdscr.addstr(i+10, 0, f"{prefix} {joint:<15} {pos:6.3f}")
+            # Prefer actual ticks from record_position; otherwise approximate from center
+            if joint in node.joint_ticks:
+                ticks_display = node.joint_ticks[joint]
+            else:
+                center = node.center_ticks.get(joint)
+                ticks_display = center + pos * (4096.0 / (2 * math.pi)) if center is not None else 0.0
+            stdscr.addstr(i+10, 0, f"{prefix} {joint:<15} {pos:6.3f} rad | {int(round(ticks_display)):5d} ticks")
         
         stdscr.addstr(17, 0, f"Step size: {node.step_size:5.3f} rad")
         stdscr.addstr(18, 0, f"Torque: {'ON' if node.torque_enabled else 'OFF'}")
@@ -240,6 +288,8 @@ def main(stdscr):
                 elif key == ord('l'):
                     entering_name = True
                     node.status_message = "Load pose"
+                elif key == ord('r'):
+                    node.refresh_ticks()
                 
         except KeyboardInterrupt:
             break

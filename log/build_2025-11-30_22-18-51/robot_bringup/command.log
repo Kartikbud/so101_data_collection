@@ -1,0 +1,4 @@
+Invoking command in '/home/kartik/robot_arm/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/build/robot_bringup -- -j8 -l8
+Invoked command in '/home/kartik/robot_arm/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kartik/robot_arm/build/robot_bringup -- -j8 -l8
+Invoking command in '/home/kartik/robot_arm/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/build/robot_bringup
+Invoked command in '/home/kartik/robot_arm/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kartik/robot_arm/build/robot_bringup

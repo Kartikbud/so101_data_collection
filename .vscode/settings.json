@@ -5,5 +5,6 @@
     "python.analysis.extraPaths": [
         "/opt/ros/jazzy/lib/python3.12/site-packages"
     ],
-    "ros.distro": "jazzy"
+    "ros.distro": "jazzy",
+    "cmake.sourceDirectory": "/home/kartik/robot_arm/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux"
 }

@@ -1,3 +1,4 @@
+/home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/launch/physical_robot.launch.py
 /home/kartik/robot_arm/install/robot_bringup/share/robot_bringup/launch/simulated_robot.launch.py
 /home/kartik/robot_arm/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
 /home/kartik/robot_arm/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
